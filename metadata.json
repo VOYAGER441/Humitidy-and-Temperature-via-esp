@@ -1,0 +1,6 @@
+{
+  "name": "EcoMonitor ESP",
+  "description": "A high-density temperature and humidity monitoring dashboard styled like Grafana, connected to ESP32 device telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
