@@ -75,9 +75,15 @@ A React Native (Expo) mobile dashboard for monitoring temperature, humidity, and
         └── Icons.tsx            # Custom SVG icon components
 ```
 
+## Circuit Diagram
+
+<p align="center">
+  <img src="circuit/design/circuit.png" alt="EcoMonitor ESP32 Circuit Diagram" width="600" />
+</p>
+
 ## ESP32 Hardware Integration
 
-The app includes an Arduino sketch (`esp32_dht22_logger.ino` viewable in the **Config** tab) designed for an **ESP32-WROOM-DA** paired with a **DHT22** sensor. To use real hardware:
+The app includes an Arduino sketch (`esp32_dht22_logger.ino` viewable in the **Config** tab) designed for an **ESP32-WROOM-DA** paired with a **DHT22** sensor. Refer to the circuit diagram above for wiring. To use real hardware:
 
 1. Flash the sketch to your ESP32 using the Arduino IDE or PlatformIO
 2. Update `ssid`, `password`, and `serverName` in the sketch to match your WiFi and API endpoint
