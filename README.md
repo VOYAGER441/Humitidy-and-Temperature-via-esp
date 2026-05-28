@@ -81,6 +81,8 @@ A React Native (Expo) mobile dashboard for monitoring temperature, humidity, and
   <img src="circuit/design/circuit.png" alt="EcoMonitor ESP32 Circuit Diagram" width="600" />
 </p>
 
+🔧 **[Interactive Circuit Simulation](https://app.cirkitdesigner.com/project/a2f15a32-66b7-4d52-95bb-3ec25d87b8d5)** — Explore and simulate the circuit in CirKit Designer
+
 ## ESP32 Hardware Integration
 
 The app includes an Arduino sketch (`esp32_dht22_logger.ino` viewable in the **Config** tab) designed for an **ESP32-WROOM-DA** paired with a **DHT22** sensor. Refer to the circuit diagram above for wiring. To use real hardware:
